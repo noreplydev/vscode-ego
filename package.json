@@ -3,6 +3,7 @@
   "displayName": "Ego",
   "description": "Support for the Ego programming language",
   "version": "0.0.1",
+  "publisher": "cristian sanchez",
   "engines": {
     "vscode": "^1.89.0"
   },
