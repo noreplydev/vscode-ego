@@ -2,25 +2,38 @@
   "name": "ego-lang",
   "displayName": "Ego",
   "description": "Support for the Ego programming language",
-  "version": "0.0.1",
-  "publisher": "cristian sanchez",
+  "version": "0.0.2",
+  "publisher": "CristianSnchez",
   "engines": {
     "vscode": "^1.89.0"
   },
   "categories": [
     "Programming Languages"
   ],
+  "repository": {
+    "url": "https://github.com/noreplydev/vscode-ego"
+  },
+  "icon": "public/main.png",
   "contributes": {
-    "languages": [{
-      "id": "ego",
-      "aliases": ["Ego", "ego"],
-      "extensions": [".ego"],
-      "configuration": "./language-configuration.json"
-    }],
-    "grammars": [{
-      "language": "ego",
-      "scopeName": "source.ego",
-      "path": "./syntaxes/ego.tmLanguage.json"
-    }]
+    "languages": [
+      {
+        "id": "ego",
+        "aliases": [
+          "Ego",
+          "ego"
+        ],
+        "extensions": [
+          ".ego"
+        ],
+        "configuration": "./language-configuration.json"
+      }
+    ],
+    "grammars": [
+      {
+        "language": "ego",
+        "scopeName": "source.ego",
+        "path": "./syntaxes/ego.tmLanguage.json"
+      }
+    ]
   }
 }
