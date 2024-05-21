@@ -13,7 +13,7 @@
   "repository": {
     "url": "https://github.com/noreplydev/vscode-ego"
   },
-  "icon": "public/main.png",
+  "icon": "public/logo.png",
   "contributes": {
     "languages": [
       {
