@@ -3,6 +3,9 @@
   "name": "Ego",
   "patterns": [
     {
+      "include": "#comments"
+    },
+    {
       "include": "#keywords"
     },
     {
@@ -59,6 +62,14 @@
         {
           "name": "keyword.operator.arithmetic.ego",
           "match": "([\\+\\-\\*\\/\\%])"
+        }
+      ]
+    },
+    "comments": {
+      "patterns": [
+        {
+          "name": "comment.line.ego",
+          "match": "\/\/.*"
         }
       ]
     }
